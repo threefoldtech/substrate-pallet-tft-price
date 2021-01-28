@@ -1,11 +1,11 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
-description = 'FRAME pallet template for defining custom runtime logic.'
+authors = ['Threefoldtech <https://github.com/threefoldtech>']
+description = 'Substrate TFT Price fetching pallet'
 edition = '2018'
-homepage = 'https://substrate.dev'
-license = 'Unlicense'
+homepage = 'threefold.io'
+license = 'Apache'
 name = 'pallet-tft-price-oracle'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+repository = 'https://github.com/threefoldtech/substrate-pallet-tft-price'
 version = '2.0.1'
 
 [package.metadata.docs.rs]
