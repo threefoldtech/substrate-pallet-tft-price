@@ -74,7 +74,7 @@ pub trait Trait: system::Trait + CreateSignedTransaction<Call<Self>> {
 decl_storage! {
 	trait Store for Module<T: Trait> as TFTPriceModule {
 		// Token price
-		TftPrice: U16F16;
+		pub TftPrice: U16F16;
 	}
 }
 
